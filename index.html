@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/logo/logo.jpg" type="image/x-icon" />
+
+    <!-- Animate Style -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- Font Awesome CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Jonsuh Hamburger -->
+    <link rel="stylesheet" href="dist/css/hamburgers.css" />
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="dist/css/style.css" />
+    <title>MUSEUM | NTB</title>
+  </head>
+  <body id="home">
+    <!-- Header -->
+    <section class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo-nav">
+            <i class="fa-solid fa-museum"></i>
+          </div>
+          <ul class="menu">
+            <li>
+              <a href="#home"> <i class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li>
+              <a href="#best"><i class="fa-solid fa-image"></i>Gallery 1</a>
+            </li>
+            <li>
+              <a href="#services"><i class="fa-solid fa-list"></i>Services</a>
+            </li>
+            <li>
+              <a href="#gallery"><i class="fa-solid fa-image"></i>Gallery 2</a>
+            </li>
+          </ul>
+          <button class="about-button">About Us</button>
+          <button class="hamburger hamburger--spin" type="button">
+            <span class="hamburger-box">
+              <span class="hamburger-inner"></span>
+            </span>
+          </button>
+        </div>
+
+        <div class="hero">
+          <h1 class="animate__animated animate__fadeInUp animate__delay-3s">
+            <span id="t1">Museum NTB</span> <br />
+            <span id="t2">Best Destination</span>
+          </h1>
+          <div class="hero-jargon">
+            <div class="animate__animated animate__fadeInUp animate__delay-1s">
+              <p><span>Musuem</span> adalah lembaga budaya atau institusi yang didedikasikan untuk mengumpulkan, merawat, memelihara, dan memamerkan benda-benda seni, artefak sejarah, ilmiah, atau budaya.</p>
+            </div>
+            <div class="animate__animated animate__fadeInUp animate__delay-1s">
+              <p> serta bahan-bahan lain yang memiliki nilai historis, estetika, pendidikan, atau budaya. Tujuan utama dari museum adalah untuk melestarikan warisan budaya dan sejarah manusia serta mendidik dan menghibur masyarakat melalui koleksi mereka.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Header -->
+
+    <!-- Best Destination -->
+    <section class="best-destination" id="best">
+      <div class="container">
+        <div class="best-destination-box">
+          <div class="box">
+            <h1 data-aos="fade-up">Gallery 1</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Berikut ini adalah monumen bersejarah terbaik yang dapat dikunjungi.</p>
+          </div>
+          <div class="box" data-aos="fade-up" data-aos-delay="400">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <img src="assets/images/best-destination/gallery1.jpg" alt="" />
+                  <div class="loc">
+                    <h3>BUAYA MUARA</h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/best-destination/gallery2.jpg" alt="" />
+                  <div class="loc">
+                    <h3>Rusa Timor</h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/best-destination/gallery3.jpg" alt="" />
+                  <div class="loc">
+                    <h3>Kayu Gaharu</h3>
+                    <h3>Kayu Bajur</h3>
+                    <h3>Kayu Kecilung</h3>
+                    <h3>Kayu Ipil</h3>
+                    <h3>Kayu Buah Odak</h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/best-destination/gallery4.jpg" alt="" />
+                  <div class="loc">
+                    <h3>Kerang Kepala Kambing</h3>
+                    <h3>Nautilus Berongga</h3>
+                    <h3>Kerang Kepala Kambing</h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/best-destination/gallery5.jpg" alt="" />
+                  <div class="loc">
+                    <h3>Kima Raksasa</h3>
+                    <h3>Triton Terompet</h3>
+                    <h3>Kerang Mutiara</h3>
+                    <h3>Susu Bundar,Siput Lola,Trakalola</h3>
+                  </div>
+                </div>
+                <div class="swiper-slide">
+                  <img src="assets/images/best-destination/gallery6.jpg" alt="" />
+                  <div class="loc">
+                    <h3>Kima Raksasa</h3>
+                    <h3>Triton Terompet</h3>
+                    <h3>Kerang Mutiara</h3>
+                    <h3>Susu Bundar,Siput Lola,Trakalola</h3>
+                  </div>
+                </div>
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Best Destination -->
+
+    <!-- Services -->
+    <section class="services" id="services">
+      <div class="container">
+        <div class="services-box">
+          <div class="box">
+            <h1 data-aos="fade-up">Our Services</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Berikut ini layanan yang dapat kami berikan.</p>
+          </div>
+          <div class="box">
+            <div class="service" data-aos="fade-down" data-aos-delay="400">
+              <span>1</span>
+              <p>Memandu untuk berbagai pengetahuan dan sebagai objek penelitian</p>
+            </div>
+            <div class="service" data-aos="fade-up" data-aos-delay="400">
+              <span>2</span>
+              <p>Tur museum penawaran tur virtual atau dalam dunia nyata dengan panduan ahli untuk menggali lebih dalam koleksi dan sejarah museum.</p>
+            </div>
+            <div class="service" data-aos="fade-down" data-aos-delay="400">
+              <span>3</span>
+              <p>Jam Operasional dan Harga Tiket</p>
+            </div>
+            <div class="service" data-aos="fade-up" data-aos-delay="400">
+              <span>4</span>
+              <p>Setiap kepala seksi punya program:
+                Program kotaku museumku dan kampungku museumku
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Services -->
+
+    <!-- Gallery -->
+    <section class="gallery" id="gallery">
+      <div class="container">
+        <div class="gallery-box">
+          <div class="box">
+            <h1 data-aos="fade-up">Our Gallery</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Berikut ini beberapa Gambar Pameran</p>
+          </div>
+          <div class="box">
+            <a href="assets/images/gallery/gallery-1.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery1.jpg" alt="" />
+            </a>
+            <a href="assets/images/gallery/gallery-2.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery2.jpg" alt="" />
+            </a>
+            <a href="assets/images/gallery/gallery-3.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery3.jpg" alt="" />
+            </a>
+            <a href="assets/images/gallery/gallery-4.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery4.jpg" alt="" />
+            </a>
+            <a href="assets/images/gallery/gallery-6.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery6.jpg" alt="" />
+            </a>
+            <a href="assets/images/gallery/gallery-7.jpg" target="_blank" data-aos="fade-in" data-aos-delay="400">
+              <img src="assets/images/gallery/gallery7.jpg" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Gallery -->
+
+    <!-- About Us -->
+    <section class="about" id="about">
+      <div class="container">
+        <div class="about-box">
+          <div class="box">
+            <h1 data-aos="fade-up">About Us</h1>
+            <p data-aos="fade-up" data-aos-delay="200">Berikut ini Deskripsi Singkat About Us</p>
+          </div>
+          <div class="box">
+            <div data-aos="fade-up" data-aos-delay="400">
+              <img src="assets/images/about/about.jpg" alt="" />
+            </div>
+            <div data-aos="fade-down" data-aos-delay="400">
+              <h2>Museum NTB</h2>
+              <p>
+                Sebuah museum adalah lembaga yang didedikasikan untuk mengumpulkan, merawat, dan memamerkan berbagai benda seni, artefak sejarah, ilmiah, atau budaya. Fungsi utama museum adalah melestarikan warisan budaya dan sejarah manusia, serta mendidik dan menghibur masyarakat dengan menampilkan koleksinya dalam lingkungan yang terorganisir dan edukatif</p>
+              <p>
+                Museum merupakan tempat yang memungkinkan pengunjung untuk memahami dan menghargai berbagai aspek kehidupan manusia melalui benda-benda yang dipamerkan, dan mereka sering menawarkan program pendidikan, tur, dan acara khusus untuk menambah pemahaman pengunjung tentang koleksi mereka.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Us -->
+
+    <!-- Footer -->
+    <section class="footer">
+      <div class="container">
+        <div class="footer-box">
+          <p>&copy; Copyright by <span>DK</span> 2023, All Right Reserved.</p>
+        </div>
+      </div>
+    </section>
+    <!-- Footer -->
+
+    <!-- Pre Loader -->
+    <div class="loader">
+      <img src="assets/loader/loader.svg" alt="loading.io" />
+    </div>
+    <!-- Pre Loader -->
+
+    <!-- JS -->
+    <script src="dist/js/script.js"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+          type: "fraction",
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2,
+            spaceBetween: 20,
+          },
+          992: {
+            slidesPerView: 3,
+            spaceBetween: 20,
+          },
+          1280: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
